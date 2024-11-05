@@ -1,0 +1,78 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2639
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww14180\viewh14760\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 <!DOCTYPE html>\
+<html lang="it">\
+<head>\
+    <meta charset="UTF-8">\
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">\
+    <title>Nome Azienda - Protezione Antincendio</title>\
+    <link rel="stylesheet" href="style.css">\
+    <script src="script.js" defer></script>\
+</head>\
+<body>\
+\
+<div class="container">\
+    <!-- Homepage / Header -->\
+    <div class="header">\
+        <h1>Protezione Antincendio Affidabile e Completa</h1>\
+        <p>Progettiamo, installiamo e manteniamo sistemi antincendio per garantire la sicurezza di ogni ambiente.</p>\
+        <button onclick="openPopupForm()" class="button">Richiedi Informazioni</button>\
+        <a href="https://www.sito-bim.com" target="_blank" class="button">Visita il nostro partner per servizi BIM</a>\
+    </div>\
+\
+    <!-- Chi Siamo -->\
+    <section id="chi-siamo">\
+        <h2>Chi Siamo</h2>\
+        <p>Fondata nel [anno di fondazione], <strong>Nome Azienda</strong> \'e8 una realt\'e0 dinamica e affidabile nel settore della sicurezza antincendio...</p>\
+    </section>\
+\
+    <!-- Servizi -->\
+    <section id="servizi">\
+        <h2>I Nostri Servizi</h2>\
+        <div><h3>Progettazione</h3><p>Descrizione del servizio...</p></div>\
+        <div><h3>Installazione</h3><p>Descrizione del servizio...</p></div>\
+        <div><h3>Manutenzione</h3><p>Descrizione del servizio...</p></div>\
+    </section>\
+\
+    <!-- Portfolio -->\
+    <section id="portfolio">\
+        <h2>Il Nostro Portfolio</h2>\
+        <div><h3><a href="#" onclick="openPopup('popup1')">Palazzo delle Procuratie Vecchie...</a></h3><p>Descrizione breve...</p></div>\
+        <!-- Aggiungi gli altri progetti qui seguendo lo stesso schema -->\
+    </section>\
+\
+    <!-- Contatti -->\
+    <section id="contatti">\
+        <h2>Contattaci</h2>\
+        <form action="mailto:tuoindirizzo@esempio.com" method="post" enctype="text/plain">\
+            <label for="nome">Nome</label><input type="text" id="nome" name="nome" required>\
+            <label for="email">Email</label><input type="email" id="email" name="email" required>\
+            <label for="telefono">Telefono</label><input type="tel" id="telefono" name="telefono">\
+            <label for="messaggio">Messaggio</label><textarea id="messaggio" name="messaggio" required></textarea>\
+            <button type="submit">Invia</button>\
+        </form>\
+    </section>\
+</div>\
+\
+<!-- Popup Form -->\
+<div id="popupForm" class="popup">\
+    <div class="popup-content">\
+        <span class="close" onclick="closePopupForm()">&times;</span>\
+        <h3>Richiedi Informazioni</h3>\
+        <form action="mailto:tuoindirizzo@esempio.com" method="post" enctype="text/plain">\
+            <label for="nome">Nome</label><input type="text" id="nome" name="nome" required>\
+            <label for="email">Email</label><input type="email" id="email" name="email" required>\
+            <label for="messaggio">Messaggio</label><textarea id="messaggio" name="messaggio" required></textarea>\
+            <button type="submit">Invia</button>\
+        </form>\
+    </div>\
+</div>\
+\
+</body>\
+</html>\
+}
